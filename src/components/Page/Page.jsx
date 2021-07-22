@@ -21,17 +21,16 @@ const Page = () => {
     return (
         <Fragment>
             <Header />
-            <div className={styles.box}>
+            {!forecast && (<div className={`${styles.box} position-relative`}>
                 {/* Form */}
                 { !isLoading && <Form submitSearch={onSubmit} /> }
                 {/* Error */}
                 { isError && <Error message={isError} /> }
                 {/* Loader */}
                 { isLoading && <Loader /> }
+            </div>)}
                 {/* Forecast */}
-                { forecast && <Forecast /> }
-
-            </div>
+                { forecast && <Forecast forecast={forecast} /> }
         </Fragment>
     );
 };

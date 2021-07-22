@@ -8,7 +8,7 @@ const Form = ({submitSearch}) => {
 
     const onSubmit = (e) => {
         e.preventDefault();
-        if (!location || location == "") return;
+        if (!location || location === "") return;
         submitSearch(location);
     }
 
