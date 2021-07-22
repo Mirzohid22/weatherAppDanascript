@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/weatherAppDanascript/static/css/main.8834f4f5.chunk.css",
+    "main.js": "/weatherAppDanascript/static/js/main.f9865446.chunk.js",
+    "main.js.map": "/weatherAppDanascript/static/js/main.f9865446.chunk.js.map",
+    "runtime-main.js": "/weatherAppDanascript/static/js/runtime-main.fac72ac8.js",
+    "runtime-main.js.map": "/weatherAppDanascript/static/js/runtime-main.fac72ac8.js.map",
+    "static/css/2.081f420c.chunk.css": "/weatherAppDanascript/static/css/2.081f420c.chunk.css",
+    "static/js/2.f5de3910.chunk.js": "/weatherAppDanascript/static/js/2.f5de3910.chunk.js",
+    "static/js/2.f5de3910.chunk.js.map": "/weatherAppDanascript/static/js/2.f5de3910.chunk.js.map",
+    "index.html": "/weatherAppDanascript/index.html",
+    "static/css/2.081f420c.chunk.css.map": "/weatherAppDanascript/static/css/2.081f420c.chunk.css.map",
+    "static/css/main.8834f4f5.chunk.css.map": "/weatherAppDanascript/static/css/main.8834f4f5.chunk.css.map",
+    "static/js/2.f5de3910.chunk.js.LICENSE.txt": "/weatherAppDanascript/static/js/2.f5de3910.chunk.js.LICENSE.txt",
+    "static/media/CurrentDay.module.css": "/weatherAppDanascript/static/media/mountain.ef3e6e15.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fac72ac8.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.f5de3910.chunk.js",
+    "static/css/main.8834f4f5.chunk.css",
+    "static/js/main.f9865446.chunk.js"
+  ]
+}
