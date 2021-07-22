@@ -18,8 +18,6 @@ const useForecast = () => {
         // 1. get woeid
         const { data } = await axios(`${REQUEST_URL}/search`, { params: { query: location } });
         // 2. get weather
-        console.log({ data });
-
         if (!data || data.length === 0) {
             // set an Error
             setIsError('There is no such location 😢💔');
